@@ -12,7 +12,7 @@ var attractionsModule = (function () {
   // application state
 
   var enhanced = {
-    hotels: hotels.map(attractionModule.create),
+    // hotels: hotels.map(attractionModule.create),
     restaurants: restaurants.map(attractionModule.create),
     activities: activities.map(attractionModule.create),
   };
